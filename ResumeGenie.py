@@ -1,9 +1,9 @@
 import requests
 import os
-from dotenv import load_dotenv
+import streamlit as st
 
-load_dotenv()
-API_KEY = os.getenv("OPENAI_API_KEY")
+api_key = st.secrets["OPENAI_API_KEY"]
+model =st.secrets.get("MODEL_NAME", "openai/gpt-3.5-turbo")
 
 
 def call_openrouter(prompt, model="openai/gpt-3.5-turbo"):
