@@ -3,7 +3,7 @@ from ResumeGenie import call_openrouter
 from PyPDF2 import PdfReader
 import docx
 
-st.set_page_config(page_title=" AI Resume Optimizer", layout="centered")
+st.set_page_config(page_title=" ResumeGenie–AI", layout="centered")
 st.title(" ResumeGenie–AI (Boost Your Resume with AI)")
 
 resume_file = st.file_uploader("&#128228; Upload your resume", type=["pdf", "docx", "txt"])
