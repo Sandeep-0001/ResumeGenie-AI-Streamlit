@@ -2,7 +2,7 @@ import requests
 import os
 import streamlit as st
 
-api_key = st.secrets["OPENROUTER_API_KEY"]
+api_key = st.secrets["OPENAI_API_KEY"]
 model =st.secrets.get("MODEL_NAME", "openai/gpt-3.5-turbo")
 
 
