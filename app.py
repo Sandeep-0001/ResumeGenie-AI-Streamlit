@@ -4,7 +4,7 @@ from PyPDF2 import PdfReader
 import docx
 
 st.set_page_config(page_title=" AI Resume Optimizer", layout="centered")
-st.title(" ResumeGenie –AI (Boost Your Resume with AI)")
+st.title(" ResumeGenie–AI (Boost Your Resume with AI)")
 
 resume_file = st.file_uploader("&#128228; Upload your resume", type=["pdf", "docx", "txt"])
 job_desc = st.text_area("&#128204; Paste Job Description here")
